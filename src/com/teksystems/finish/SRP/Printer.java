@@ -9,6 +9,6 @@ public class Printer {
 
     /*method for formatting output*/
     void printText() {
-
+        System.out.println();
     }
 }

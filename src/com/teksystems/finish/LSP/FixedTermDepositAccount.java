@@ -9,8 +9,4 @@ public class FixedTermDepositAccount extends Account {
         // Deposit into this account
     }
 
-    @Override
-    protected void withdraw(BigDecimal amount) {
-        throw new UnsupportedOperationException("Withdrawals are not supported by FixedTermDepositAccount!!");
-    }
 }
